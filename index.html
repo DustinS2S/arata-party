@@ -244,13 +244,12 @@
       gap: 12px;
     }
 
-    /* hero spans */
-    .gallery-grid .photo:nth-child(4),
-    .gallery-grid .photo:nth-child(7) {
+    /* hero spans — every 5th photo gets wide, every 8th gets tall */
+    .gallery-grid .photo:nth-child(5n+1) {
       grid-column: span 2;
     }
 
-    .gallery-grid .photo:nth-child(5) {
+    .gallery-grid .photo:nth-child(7n+3) {
       grid-row: span 2;
     }
 
@@ -423,42 +422,25 @@
     </div>
 
     <div class="gallery-grid" id="gallery">
-      <div class="photo" onclick="openLightbox('photo1.jpg')">
-        <img src="photo1.jpg" alt="Arata gathering 1" loading="lazy" />
-        <div class="photo-overlay"></div>
-      </div>
-      <div class="photo" onclick="openLightbox('photo2.jpg')">
-        <img src="photo2.jpg" alt="Arata gathering 2" loading="lazy" />
-        <div class="photo-overlay"></div>
-      </div>
-      <div class="photo" onclick="openLightbox('photo3.jpg')">
-        <img src="photo3.jpg" alt="Arata gathering 3" loading="lazy" />
-        <div class="photo-overlay"></div>
-      </div>
-      <div class="photo" onclick="openLightbox('photo4.jpg')">
-        <img src="photo4.jpg" alt="Arata gathering 4" loading="lazy" />
-        <div class="photo-overlay"></div>
-      </div>
-      <div class="photo" onclick="openLightbox('photo5.jpg')">
-        <img src="photo5.jpg" alt="Arata gathering 5" loading="lazy" />
-        <div class="photo-overlay"></div>
-      </div>
-      <div class="photo" onclick="openLightbox('photo6.jpg')">
-        <img src="photo6.jpg" alt="Arata gathering 6" loading="lazy" />
-        <div class="photo-overlay"></div>
-      </div>
-      <div class="photo" onclick="openLightbox('photo7.jpg')">
-        <img src="photo7.jpg" alt="Arata gathering 7" loading="lazy" />
-        <div class="photo-overlay"></div>
-      </div>
-      <div class="photo" onclick="openLightbox('photo8.jpg')">
-        <img src="photo8.jpg" alt="Arata gathering 8" loading="lazy" />
-        <div class="photo-overlay"></div>
-      </div>
-      <div class="photo" onclick="openLightbox('photo9.jpg')">
-        <img src="photo9.jpg" alt="Arata gathering 9" loading="lazy" />
-        <div class="photo-overlay"></div>
-      </div>
+      <div class="photo" onclick="openLightbox('photo1.jpg')"><img src="photo1.jpg" alt="Arata gathering 1" loading="lazy" /><div class="photo-overlay"></div></div>
+      <div class="photo" onclick="openLightbox('photo2.jpg')"><img src="photo2.jpg" alt="Arata gathering 2" loading="lazy" /><div class="photo-overlay"></div></div>
+      <div class="photo" onclick="openLightbox('photo3.jpg')"><img src="photo3.jpg" alt="Arata gathering 3" loading="lazy" /><div class="photo-overlay"></div></div>
+      <div class="photo" onclick="openLightbox('photo4.jpg')"><img src="photo4.jpg" alt="Arata gathering 4" loading="lazy" /><div class="photo-overlay"></div></div>
+      <div class="photo" onclick="openLightbox('photo5.jpg')"><img src="photo5.jpg" alt="Arata gathering 5" loading="lazy" /><div class="photo-overlay"></div></div>
+      <div class="photo" onclick="openLightbox('photo6.jpg')"><img src="photo6.jpg" alt="Arata gathering 6" loading="lazy" /><div class="photo-overlay"></div></div>
+      <div class="photo" onclick="openLightbox('photo7.jpg')"><img src="photo7.jpg" alt="Arata gathering 7" loading="lazy" /><div class="photo-overlay"></div></div>
+      <div class="photo" onclick="openLightbox('photo8.jpg')"><img src="photo8.jpg" alt="Arata gathering 8" loading="lazy" /><div class="photo-overlay"></div></div>
+      <div class="photo" onclick="openLightbox('photo9.jpg')"><img src="photo9.jpg" alt="Arata gathering 9" loading="lazy" /><div class="photo-overlay"></div></div>
+      <div class="photo" onclick="openLightbox('photo10.jpg')"><img src="photo10.jpg" alt="Arata gathering 10" loading="lazy" /><div class="photo-overlay"></div></div>
+      <div class="photo" onclick="openLightbox('photo11.jpg')"><img src="photo11.jpg" alt="Arata gathering 11" loading="lazy" /><div class="photo-overlay"></div></div>
+      <div class="photo" onclick="openLightbox('photo12.jpg')"><img src="photo12.jpg" alt="Arata gathering 12" loading="lazy" /><div class="photo-overlay"></div></div>
+      <div class="photo" onclick="openLightbox('photo13.jpg')"><img src="photo13.jpg" alt="Arata gathering 13" loading="lazy" /><div class="photo-overlay"></div></div>
+      <div class="photo" onclick="openLightbox('photo14.jpg')"><img src="photo14.jpg" alt="Arata gathering 14" loading="lazy" /><div class="photo-overlay"></div></div>
+      <div class="photo" onclick="openLightbox('photo15.jpg')"><img src="photo15.jpg" alt="Arata gathering 15" loading="lazy" /><div class="photo-overlay"></div></div>
+      <div class="photo" onclick="openLightbox('photo16.jpg')"><img src="photo16.jpg" alt="Arata gathering 16" loading="lazy" /><div class="photo-overlay"></div></div>
+      <div class="photo" onclick="openLightbox('photo17.jpg')"><img src="photo17.jpg" alt="Arata gathering 17" loading="lazy" /><div class="photo-overlay"></div></div>
+      <div class="photo" onclick="openLightbox('photo18.jpg')"><img src="photo18.jpg" alt="Arata gathering 18" loading="lazy" /><div class="photo-overlay"></div></div>
+      <div class="photo" onclick="openLightbox('photo19.jpg')"><img src="photo19.jpg" alt="Arata gathering 19" loading="lazy" /><div class="photo-overlay"></div></div>
     </div>
   </section>
 
